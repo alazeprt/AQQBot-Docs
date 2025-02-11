@@ -39,6 +39,13 @@ export default defineConfig({
               { text: '自定义指令', link: '/docs/zh/plugin/custom' },
               { text: 'Q&A', link: '/docs/zh/plugin/qa' }
             ]
+          },
+          {
+            text: '接入 API',
+            items: [
+              { text: '引入', link: '/docs/zh/api/import' },
+              { text: '用法', link: '/docs/zh/api/usage' }
+            ]
           }
         ]
       }
