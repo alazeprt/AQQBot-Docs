@@ -16,7 +16,7 @@ export default defineConfig({
       lang: 'zh',
       themeConfig: {
         sidebar: [
-          { text: '简介', link: 'docs/docs/zh/description' },
+          { text: '简介', link: '/docs/zh/description' },
           {
             text: 'OneBot 11 后端安装并配置',
             items: [
