@@ -16,14 +16,7 @@ hero:
       text: GitHub
       link: https://github.com/alazeprt/AQQBot-Docs
 
-features:
-  - title: 轻量ss
-    details: 插件本体仅1MB不到
-  - title: 高度定制化
-    details: 你可以自由开关插件所内置的各个功能，只需要通过编辑配置文件
-  - title: 强大兼容性
-    details: 插件支持基于Spigot/Paper的所有服务端及Velocity
----
+
 features:
   - icon: <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><path d="M11.61 29.92a1 1 0 0 1-.6-1.07L12.83 17H8a1 1 0 0 1-1-1.23l3-13A1 1 0 0 1 11 2h10a1 1 0 0 1 .78.37a1 1 0 0 1 .2.85L20.25 11H25a1 1 0 0 1 .9.56a1 1 0 0 1-.11 1l-13 17A1 1 0 0 1 12 30a1.09 1.09 0 0 1-.39-.08zM17.75 13l2-9H11.8L9.26 15h5.91l-1.59 10.28L23 13z" fill="currentColor"></path></svg>
     title: 轻量化
@@ -37,4 +30,4 @@ features:
   - icon: 🚀
     title: 快速上手
     details: 插件只需配置一点文件即可运行
-
+---
