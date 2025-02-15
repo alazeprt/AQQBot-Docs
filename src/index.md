@@ -6,7 +6,7 @@ hero:
   name: "AQQBot 文档"
   tagline: 一个基于OneBot 11的优秀Minecraft QQ机器人插件
   image:
-    src: /assets/logo.png
+    src: ./logo.png
     alt: VitePress
   actions:
     - theme: brand
