@@ -17,6 +17,34 @@ version: 15
 
 该功能从 `1.0.14` 引入, 在 `1.0.14` 到 `1.1.0` 之间的版本为 14, `1.1.1` 的版本为 15, 用于判断配置文件是否要更新, 切忌修改!
 
+## 存储
+
+对应 第 7 - 23 行
+
+```yaml
+# 存储相关配置 (重启后生效)
+storage:
+  # 存储方式
+  # 可选方式: file, sqlite, mysql
+  type: "file"
+
+  # SQLite 数据库配置
+  sqlite:
+    file: "aqqbot.db"
+
+  # MySQL 数据库配置
+  mysql:
+    host: "127.0.0.1"
+    port: 3306
+    user: "root"
+    password: "123456"
+    database: "aqqbot"
+```
+
+:::warning 警告
+在使用 MySQL 数据库时, 请确保你已经安装好了 MySQL 数据库并**创建好了对应的数据库** (即这里的 `storage.mysql.database` 的名称), 否则可能导致插件无法启动!
+:::
+
 ## 白名单
 
 对应 第 25 - 77 行

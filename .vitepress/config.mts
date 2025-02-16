@@ -35,6 +35,7 @@ export default defineConfig({
               { text: '使用', link: '/docs/zh/plugin/usage' },
               { text: '配置前的提醒', link: '/docs/zh/plugin/remind' },
               { text: '基本配置', link: '/docs/zh/plugin/configuration' },
+              { text: '基本配置 (v2)', link: '/docs/zh/plugin/configuration-v2' },
               { text: '消息配置', link: '/docs/zh/plugin/message' },
               { text: '自定义指令', link: '/docs/zh/plugin/custom' },
               { text: 'Q&A', link: '/docs/zh/plugin/qa' }
