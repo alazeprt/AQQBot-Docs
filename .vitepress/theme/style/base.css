@@ -5,7 +5,7 @@ body:before {
   bottom: 0;
   opacity: 0.1;
   z-index: -1;
-  content: 'Alpha';
+  content: '';
   position: fixed;
   background: url('https://api.armoe.cn/acg/random') center / cover;
 }
