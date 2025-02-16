@@ -15,7 +15,7 @@ hero:
       link: /docs/zh/description
     - theme: alt
       text: GitHub
-      link: https://github.com/alazeprt/AQQBot-Docs
+      link: https://github.com/alazeprt/AQQBot
 
 
 features:
