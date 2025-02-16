@@ -7,7 +7,7 @@ import { data } from "../../../config-spec/bot/zh.data.mts";
 </script>
 
 :::warning 警告
-使用插件过程中需要保持 OneBot 11 后端始终正在运行
+使用插件过程中需要保持 OneBot 11 后端始终正在运行, 若还未安装后端请看 [这里](../dependencies/remind.md)
 :::
 
 :::tip 提示
@@ -17,6 +17,7 @@ import { data } from "../../../config-spec/bot/zh.data.mts";
 ## 下载
 
 下载方式: 
+- [Github Releases](https://github.com/alazeprt/AQQBot/releases): **推荐**, 这是插件的最新较稳定版本
 - [MineBBS](https://www.minebbs.com/resources/aqqbot.9921/): **推荐**, MineBBS 上的是插件的最新稳定版本
 - [Github Actions](https://github.com/alazeprt/AQQBot/actions): 是插件的最新开发版本, 可能有较多bug, 不稳定, 不推荐正式服务端环境使用
 - [Modrinth](https://modrinth.com/plugin/aqqbot): *不建议*, 由于作者经常懒得上 Modrinth, 所以 Modrinth 上的版本大部分都为 **过时** 版本
