@@ -5,7 +5,7 @@ export default hopeTheme({
   iconAssets: 'fontawesome-with-brands',
   repo: 'alazeprt/AQQBot',
   docsRepo: 'alazeprt/AQQBot-Docs',
-  docsDir: '/',
+  docsDir: 'docs',
   locales: {
     '/': {
       navbar: navbarZh
