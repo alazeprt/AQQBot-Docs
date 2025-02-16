@@ -9,9 +9,13 @@ hero:
     src: ./logo.png
     alt: VitePress
   actions:
-    - theme: brand
-      text: 开始
+    - theme: primary
+      text: 查看 V1 文档
+      icon: fa-solid fa-book
       link: /docs/zh/description
+    - theme: alt
+      text: 查看 V2 文档
+      link: /v2/README.md
     - theme: alt
       text: GitHub
       link: https://github.com/alazeprt/AQQBot-Docs
