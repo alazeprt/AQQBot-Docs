@@ -42,6 +42,14 @@ export default defineConfig({
             ]
           },
           {
+            text: '后台面板',
+            items: [
+              { text: '介绍', link: '/docs/zh/manageweb/description' },
+              { text: '安装', link: '/docs/zh/manageweb/installation' },
+              { text: 'Q&A', link: '/docs/zh/manageweb/qa' }
+            ]
+          },
+          {
             text: '接入 API',
             items: [
               { text: '引入', link: '/docs/zh/api/import' },
