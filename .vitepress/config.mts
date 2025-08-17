@@ -50,6 +50,9 @@ export default defineConfig({
             ]
           },
           {
+            text: '脚本编写'
+          }
+          {
             text: '接入 API',
             items: [
               { text: '引入', link: '/docs/zh/api/import' },
