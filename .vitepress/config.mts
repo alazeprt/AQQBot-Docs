@@ -44,9 +44,15 @@ export default defineConfig({
           {
             text: '后台面板',
             items: [
-              { text: '介绍', link: '/docs/zh/manageweb/description' },
-              { text: '安装', link: '/docs/zh/manageweb/installation' },
-              { text: 'Q&A', link: '/docs/zh/manageweb/qa' }
+              { text: '介绍', link: '/docs/zh/web-manager/description' },
+              { text: '安装', link: '/docs/zh/web-manager/installation' },
+              { text: 'Q&A', link: '/docs/zh/web-manager/qa' }
+            ]
+          },
+          {
+            text: '扩展特性',
+            items: [
+              { text: '脚本功能', link: '/docs/zh/plugin/script' }
             ]
           },
           {
@@ -54,12 +60,6 @@ export default defineConfig({
             items: [
               { text: '引入', link: '/docs/zh/api/import' },
               { text: '用法', link: '/docs/zh/api/usage' }
-            ]
-          },
-          {
-            text: '接入 API (v2)',
-            items: [
-              { text: '引入', link: '/docs/zh/apiv2/import' },
             ]
           }
         ]
