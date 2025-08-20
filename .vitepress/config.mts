@@ -29,30 +29,45 @@ export default defineConfig({
             ]
           },
           {
-            text: '插件使用',
+            text: '基础用法',
             items: [
-              { text: '安装', link: '/docs/zh/plugin/installation' },
-              { text: '使用', link: '/docs/zh/plugin/usage' },
-              { text: '配置前的提醒', link: '/docs/zh/plugin/remind' },
-              { text: '基本配置', link: '/docs/zh/plugin/configuration' },
-              { text: '基本配置 (v2)', link: '/docs/zh/plugin/configuration-v2' },
-              { text: '消息配置', link: '/docs/zh/plugin/message' },
-              { text: '自定义指令', link: '/docs/zh/plugin/custom' },
-              { text: 'Q&A', link: '/docs/zh/plugin/qa' }
+              { text: '安装', link: '/docs/zh/basic/installation' },
+              { text: 'QQ 群默认命令', link: '/docs/zh/basic/qq-usage' },
+              { text: '游戏内默认命令及权限', link: '/docs/zh/basic/game-usage' }
             ]
           },
           {
-            text: '后台面板',
+            text: '常用功能配置',
+            items: [
+              { text: '白名单/绑定功能', link: '/docs/zh/config/whitelist'},
+              { text: '信息查询功能', link: '/docs/zh/config/information' },
+              { text: '聊天互通/群服互联功能', link: '/docs/zh/config/chat' },
+              { text: '群内播报/通知', link: '/docs/zh/config/notice' },
+              { text: '远程命令执行', link: '/docs/zh/config/command' },
+              { text: 'WebSocket 服务器', link: '/docs/zh/config/websocket' },
+              { text: 'Debug 模式', link: '/docs/zh/config/debug' },
+            ]
+          },
+          {
+            text: '扩展功能配置',
+            items: [
+              { text: '自定义指令', link: '/docs/zh/extra/custom' },
+              { text: '分群配置', link: '/docs/zh/extra/multi-group' },
+              { text: '脚本功能', link: '/docs/zh/extra/script' }
+            ]
+          },
+          {
+            text: 'Web 管理面板',
             items: [
               { text: '介绍', link: '/docs/zh/web-manager/description' },
-              { text: '安装', link: '/docs/zh/web-manager/installation' },
-              { text: 'Q&A', link: '/docs/zh/web-manager/qa' }
+              { text: '安装', link: '/docs/zh/web-manager/installation' }
             ]
           },
           {
-            text: '扩展特性',
+            text: '常见问题',
             items: [
-              { text: '脚本功能', link: '/docs/zh/plugin/script' }
+              { text: '插件常见问题解答', link: '/docs/zh/faq/plugin'},
+              { text: '面板常见问题解答', link: '/docs/zh/faq/web-panel' }
             ]
           },
           {
@@ -70,19 +85,19 @@ export default defineConfig({
       lang: 'en',
       themeConfig: {
         sidebar: [
-          { text: '介绍', link: '/description' },
-          {
-            text: 'OneBot 11 后端安装',
-            items: [
-              { text: '提醒', link: '/docs/zh/dependencies/remind'}
-            ]
-          },
-          {
-            text: '插件使用',
-            items: [
-              { text: '安装', link: '/plugin-installation' },
-            ]
-          }
+          // { text: '介绍', link: '/description' },
+          // {
+          //   text: 'OneBot 11 后端安装',
+          //   items: [
+          //     { text: '提醒', link: '/docs/zh/dependencies/remind'}
+          //   ]
+          // },
+          // {
+          //   text: '插件使用',
+          //   items: [
+          //     { text: '安装', link: '/plugin-installation' },
+          //   ]
+          // }
         ]
       }
     }
