@@ -53,7 +53,8 @@ export default defineConfig({
             items: [
               { text: '自定义指令', link: '/docs/zh/extra/custom' },
               { text: '分群配置', link: '/docs/zh/extra/multi-group' },
-              { text: '脚本功能', link: '/docs/zh/extra/script' }
+              { text: '脚本功能', link: '/docs/zh/extra/script' },
+              { text: 'Web 渲染功能', link: '/docs/zh/extra/web'}
             ]
           },
           {
