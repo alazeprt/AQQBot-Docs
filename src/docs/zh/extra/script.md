@@ -28,3 +28,38 @@
 
 // 开始编写你的脚本代码
 ```
+
+## 发布插件
+
+你可以将插件发布到 [AQQBot 官方插件仓库](https://github.com/alazeprt/AQQBot-Plugins), 其他用户便可以通过内置命令安装插件并使用
+
+首先, 你需要 [Fork AQQBot 官方插件仓库](https://github.com/alazeprt/AQQBot-Plugins/fork), 然后将你的插件信息添加到其中的 `repository.json`, 示例如下:
+
+```jsonc
+{
+  // 存储库基本信息
+  "name": "AQQBot 官方插件库",
+  "author": "alazeprt",
+  "description": "AQQBot 官方插件库, 收录了 AQQBot 社区开发者的一些优秀插件",
+  "website": "https://github.com/alazeprt/AQQBot-Plugins",
+  "schema_version": 1,
+  // 插件列表
+  "plugins": [
+    // 其他插件 ...
+    // 你的插件信息
+    {
+      // 先在这里填写你在 manifest.json 中填写的基本信息 (entrypoint 无需填写)
+      "schema_version": 1, // 必填
+      "name": "Test Script", // 必填
+      "description": "This is a test script", // 选填
+      "entrypoint": "test.js", // 选填
+      "author": "alazeprt", // 必填
+      "version": "1.0.0", // 必填
+      "download": "https://example.com/test-script-1.0.0.zip", // 下载地址, 你需要填写的是一个下载 .zip 文件的链接, 下载后会自动解压到 AQQBot 插件目录下 (不会创建新的目录, 解压到插件目录下), 你也可以直接填写 GitHub 下载源码的链接
+    }
+  ]
+}
+```
+
+在填写好后, 向 AQQBot 官方插件仓库提交 [Pull Request](https://github.com/alazeprt/AQQBot-Plugins/pulls), 等待审核通过即可
+
