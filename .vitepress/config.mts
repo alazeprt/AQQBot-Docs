@@ -65,6 +65,13 @@ export default defineConfig({
             ]
           },
           {
+            text: 'Navi的插件',
+            items: [
+              { text: '介绍', link: '/docs/zh/Nplugins/description' },
+              { text: '安装', link: '/docs/zh/Nplugins/installation' }
+            ]
+          },
+          {
             text: '常见问题',
             items: [
               { text: '插件常见问题解答', link: '/docs/zh/faq/plugin'},
